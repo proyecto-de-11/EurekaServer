@@ -23,7 +23,7 @@ WORKDIR /app
 COPY --from=build /app/target/*.jar /app/app.jar
 
 # Expone el puerto de la aplicación.
-EXPOSE 8081
+EXPOSE 8761
 
 # Comando para ejecutar la aplicación
 # NOTA: Usamos el puerto 8081.
